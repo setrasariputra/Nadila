@@ -1,0 +1,80 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #dddddd;
+    padding: 10px 20px 10px 20px;
+    color: #333333;
+}
+.btn:hover {
+    background-color: #cccccc;
+}
+.btn-blue {
+    background-color: cornflowerblue;
+    color: white;
+}
+.btn-blue:hover {
+    background-color: rgb(70, 123, 219);
+}
+.btn-orange {
+    background-color: #FF7518;
+    color: white;
+}
+.btn-orange:hover {
+    background-color: #de610e;
+}
+.btn-lg {
+    font-size: 18px;
+    padding: 15px 30px 15px 30px;
+}
+.btn-sm {
+    font-size: 12px;
+    padding: 7px 15px 7px 15px;
+}
+.rounded {
+    border-radius: 5px;
+}
+.text-white {
+    color: white;
+}
+
+
+.topmenu {
+    background-color: #333333;
+}
+.topmenu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.topmenu ul li {
+    display: inline-block;
+}
+.topmenu ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+}
+.topmenu ul li a:hover {
+    background-color: #FF7518;
+}
+.topmenu ul ul {
+    width: 200px;
+    display: none;
+    position: absolute;
+    background-color: black;
+}
+.topmenu li:hover ul {
+    display: block;
+}
+.topmenu li:hover ul li {
+    display: block;
+}
+.topmenu li:hover ul li a:hover {
+    background-color: cornflowerblue;
+}
